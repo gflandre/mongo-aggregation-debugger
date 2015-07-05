@@ -1,6 +1,7 @@
 # Mongo Aggregation Debugger
 
 [![Build Status](https://travis-ci.org/gflandre/mongo-aggregation-debugger.svg?branch=master)](https://travis-ci.org/gflandre/mongo-aggregation-debugger.svg)
+
 [![NPM](https://nodei.co/npm/mongo-aggregation-debugger.png?compact=true)](https://nodei.co/npm/mongo-aggregation-debugger/)
 
 Mongo Aggregation Debugger helps debug MongoDb aggregation queries
@@ -270,6 +271,8 @@ Then just run the `mocha` command at the root of your project.
 ## Contribute
 If you think it would make sense to add some features/methods don't hesitate to fork and
 make pull requests.
+
+You can contact the main contributor on [Twitter](http://twitter.com/gflandre)
 
 ## Licence
 Distributed under the MIT License.
