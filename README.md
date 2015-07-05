@@ -101,6 +101,15 @@ Running the code above would output this in your console:
 <img width="811" alt="capture d ecran 2015-07-05 a 14 24 46" src="https://cloud.githubusercontent.com/assets/234451/8511630/bf2bf4d6-2321-11e5-97af-3b9397d8775b.png">
 
 Example with the `showQuery` option:
+```
+mad.log(data, query, { showQuery: true }, function (err) {
+  if (err) {
+    // do something
+  }
+
+  console.log('All done!');
+});
+```
 <img width="833" alt="capture d ecran 2015-07-05 a 14 28 37" src="https://cloud.githubusercontent.com/assets/234451/8511636/31278bea-2322-11e5-822b-ee0d847e904e.png">
 
 ### `stages`
