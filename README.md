@@ -47,6 +47,7 @@ This method outputs in the console the result of each stage of the aggregation p
 
 #### Use
 `mad.log(data, query, [options,] callback)`
+
 argument | type | values | description
 ------------ | ------------- | ------------- | -------------
 data | `array` | | The data to run the query against
@@ -107,6 +108,7 @@ This method returns the result of each stage of the aggregation pipeline for pro
 
 #### Use
 `mad.stages(data, query, callback)`
+
 argument | type | description
 ------------ | ------------- | ------------- | -------------
 data | `array` | The data to run the query against
@@ -192,6 +194,7 @@ This method only runs the entirequery passed, not all the stages seperately. It 
 
 #### Use
 `mad.exec(data, query, callback)`
+
 argument | type | description
 ------------ | ------------- | ------------- | -------------
 data | `array` | The data to run the query against
