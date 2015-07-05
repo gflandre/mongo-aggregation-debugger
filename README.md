@@ -46,7 +46,7 @@ options | `{}` | (optional) additional mongodb [options](http://mongodb.github.i
 This method outputs in the console the result of each stage of the aggregation pipeline.
 
 #### Use
-`mad.log(data, query, [options,] callback)`
+`log(data, query, [options,] callback)`
 
 argument | type | values | description
 ------------ | ------------- | ------------- | -------------
@@ -116,7 +116,7 @@ mad.log(data, query, { showQuery: true }, function (err) {
 This method returns the result of each stage of the aggregation pipeline for programmatic use.
 
 #### Use
-`mad.stages(data, query, callback)`
+`stages(data, query, callback)`
 
 argument | type | description
 ------------ | ------------- | ------------- | -------------
@@ -202,7 +202,7 @@ The output is:
 This method only runs the entire query passed, not all the stages seperately. It is useful for automated tests since it creates and drops a temporary database.
 
 #### Use
-`mad.exec(data, query, callback)`
+`exec(data, query, callback)`
 
 argument | type | description
 ------------ | ------------- | ------------- | -------------
@@ -264,8 +264,8 @@ Then just run the `mocha` command at the root of your project.
 
 ## More info
 [MongoDb](https://www.mongodb.org/)
-
 [MongoDb Aggregation Framework](http://docs.mongodb.org/manual/core/aggregation-introduction/)
+[MongoDb Native NodeJS Driver](https://github.com/mongodb/node-mongodb-native)
 
 ## Contribute
 If you think it would make sense to add some features/methods don't hesitate to fork and
