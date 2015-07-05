@@ -1,0 +1,28 @@
+{
+  "name": "mongo-aggregation-debugger",
+  "version": "1.0.0",
+  "description": "Node.js MongoDB aggregation framework debugger methods",
+  "keywords": ["nodejs", "mongo", "mongodb", "aggregation", "aggregate", "debug", "debugger", "unit tests", "tests", "unit"],
+  "homepage": "https://github.com/gflandre/mongo-aggregation-debugger",
+  "author": { "name": "Guillaume Flandre",
+              "email": "guiome.flandre@gmail.com",
+              "url": "http://twitter.com/gflandre" },
+  "repository" :    { "type" :  "git",
+                      "url" :   "https://github.com/gflandre/mongo-aggregation-debugger.git" },
+  "dependencies": {
+    "async": "1.3.x",
+    "clor": "0.2.x",
+    "mocha": "2.2.x",
+    "mongodb": "2.0.x",
+    "proxyquire": "1.6.x",
+    "sinon": "1.15.x",
+    "underscore": "1.8.x"
+  },
+  "main" : "./index.js",
+  "engines" : {
+    "node" : ">=v0.10.0"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha"
+  }
+}
