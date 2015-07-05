@@ -1,7 +1,5 @@
 # Mongo Aggregation Debugger
 
-[![Build Status](https://travis-ci.org/gflandre/mongo-aggregation-debugger.svg?branch=master)](https://travis-ci.org/gflandre/mongo-aggregation-debugger.svg)
-
 [![NPM](https://nodei.co/npm/mongo-aggregation-debugger.png?compact=true)](https://nodei.co/npm/mongo-aggregation-debugger/)
 
 Mongo Aggregation Debugger helps debug MongoDb aggregation queries
@@ -264,9 +262,9 @@ In order to test this lib you'll need to install mocha: `npm install -g mocha`.
 Then just run the `mocha` command at the root of your project.
 
 ## More info
-[MongoDb](https://www.mongodb.org/)
-[MongoDb Aggregation Framework](http://docs.mongodb.org/manual/core/aggregation-introduction/)
-[MongoDb Native NodeJS Driver](https://github.com/mongodb/node-mongodb-native)
+ - [MongoDb](https://www.mongodb.org/)
+ - [MongoDb Aggregation Framework](http://docs.mongodb.org/manual/core/aggregation-introduction/)
+ - [MongoDb Native NodeJS Driver](https://github.com/mongodb/node-mongodb-native)
 
 ## Contribute
 If you think it would make sense to add some features/methods don't hesitate to fork and
