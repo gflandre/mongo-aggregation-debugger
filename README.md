@@ -199,7 +199,7 @@ The output is:
 ```
 
 ### `exec`
-This method only runs the entirequery passed, not all the stages seperately. It is useful for automated tests since it creates and drops a temporary database.
+This method only runs the entire query passed, not all the stages seperately. It is useful for automated tests since it creates and drops a temporary database.
 
 #### Use
 `mad.exec(data, query, callback)`
