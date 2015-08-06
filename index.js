@@ -255,6 +255,8 @@ var mongoAggregationDebugger = function (mongoParams) {
       cb = options;
     }
 
+    options = options || {};
+
     util.debug(clor.cyan('Mongo aggregation debugger [Start]\n'));
 
     var beforeEach = function (queryPart, index) {
