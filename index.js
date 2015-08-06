@@ -255,6 +255,10 @@ var mongoAggregationDebugger = function (mongoParams) {
       cb = options;
     }
 
+    if (typeof cb !== 'function') {
+      cb = function () {};
+    }
+
     options = options || {};
 
     util.debug(clor.cyan('Mongo aggregation debugger [Start]\n'));
@@ -299,6 +303,10 @@ var mongoAggregationDebugger = function (mongoParams) {
    * @param  {function} cb(err, output)
    */
   stages = function (data, query, cb) {
+    if (typeof cb !== 'function') {
+      cb = function () {};
+    }
+
     var output = [];
 
     var beforeEach = function (queryPart, index) {
@@ -330,6 +338,10 @@ var mongoAggregationDebugger = function (mongoParams) {
    * @param  {function} cb(err, output)
    */
   exec = function (data, query, cb) {
+    if (typeof cb !== 'function') {
+      cb = function () {};
+    }
+
     var output;
 
     var afterEach = function (results) {

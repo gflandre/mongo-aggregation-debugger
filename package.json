@@ -1,6 +1,6 @@
 {
   "name": "mongo-aggregation-debugger",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Node.js MongoDB aggregation framework debugger methods",
   "keywords": ["nodejs", "mongo", "mongodb", "aggregation", "aggregate", "debug", "debugger", "unit tests", "tests", "unit"],
   "homepage": "https://github.com/gflandre/mongo-aggregation-debugger",
