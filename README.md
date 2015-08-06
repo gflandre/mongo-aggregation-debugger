@@ -45,7 +45,7 @@ options | `{}` | (optional) additional mongodb [options](http://mongodb.github.i
 This method outputs in the console the result of each stage of the aggregation pipeline.
 
 #### Use
-`log(data, query, [options,] callback)`
+`log(data, query[, options][, callback])`
 
 argument | type | values | description
 ------------ | ------------- | ------------- | -------------
@@ -115,7 +115,7 @@ mad.log(data, query, { showQuery: true }, function (err) {
 This method returns the result of each stage of the aggregation pipeline for programmatic use.
 
 #### Use
-`stages(data, query, callback)`
+`stages(data, query[, callback])`
 
 argument | type | description
 ------------ | ------------- | ------------- | -------------
@@ -201,7 +201,7 @@ The output is:
 This method only runs the entire query passed, not all the stages seperately. It is useful for automated tests since it creates and drops a temporary database.
 
 #### Use
-`exec(data, query, callback)`
+`exec(data, query[, callback])`
 
 argument | type | description
 ------------ | ------------- | ------------- | -------------
@@ -259,7 +259,7 @@ The output is:
 
 ## Unit tests
 In order to test this lib you'll need to install mocha: `npm install -g mocha`.
-Then just run the `mocha` command at the root of your project.
+Then just run the `mocha` command at the root of the project.
 
 ## More info
  - [MongoDb](https://www.mongodb.org/)

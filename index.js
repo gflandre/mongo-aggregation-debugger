@@ -1,7 +1,5 @@
 /**
  * index.js
- * @author  Guillaume Flandre
- * @copyright Copyright (c) Guillaume Flandre 2015. All rights reserved.
  */
 var util = require('util');
 var _ = require('underscore');

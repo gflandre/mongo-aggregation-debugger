@@ -1,7 +1,5 @@
 /**
  * @file index_spec.js
- * @author Guillaume Flandre
- * @copyright Copyright (c) Guillaume Flandre 2015. All rights reserved.
  */
 var assert = require('assert');
 var sinon = require('sinon');
