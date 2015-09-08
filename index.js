@@ -223,9 +223,9 @@ var mongoAggregationDebugger = function (mongoParams) {
 
       async.series(series, function (err) {
         if (err) {
-          db.dropDatabase(function (anotherErr) {
+          return db.dropDatabase(function (anotherErr) {
             db.close();
-            return cb(anotherErr || err);
+            cb(anotherErr || err);
           });
         }
 
