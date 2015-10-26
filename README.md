@@ -22,7 +22,7 @@ The temporary database is dropped after each debug.
 
 ## Install
 ```
-npm install mongo-aggregate-debugger
+npm install mongo-aggregation-debugger
 ```
 
 ## Instantiation
